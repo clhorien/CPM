@@ -5,7 +5,7 @@ function [mdl_summary, mdl_features, y_predict, performance] = cpm_main(x,y,vara
 % returns m, a structure containing the predictive edges and associated p and r vals
 % e.g., [m1,m2,ypred,perf]=cpm_main(data,gF,'pthresh',0.05,'kfolds',2);
 
-%% Parse input
+%% Parse input - god dammit.
 p=inputParser;
 defaultpthresh=0.05;
 defaultkfolds=2; % TODO: loop over vec
